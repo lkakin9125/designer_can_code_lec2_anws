@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--set the offset of the button-->
+    <item
+        android:bottom="@dimen/trans_pad"
+        android:left="@dimen/trans_pad"
+        android:right="@dimen/trans_pad"
+        android:top="@dimen/trans_pad">
+        <!--set the shape of the bg-->
+        <shape android:shape="rectangle">
+            <!--set the shape corners radius-->
+            <corners android:radius="5dp" />
+            <!--set the color-->
+            <solid android:color="@color/primary" />
+            <!--set the padding so that the button text will not be too near to the edge-->
+            <padding
+                android:bottom="@dimen/btn_padding"
+                android:left="@dimen/btn_padding"
+                android:right="@dimen/btn_padding"
+                android:top="@dimen/btn_padding" />
+        </shape>
+    </item>
+</layer-list>

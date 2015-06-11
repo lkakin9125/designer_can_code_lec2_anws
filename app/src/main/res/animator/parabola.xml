@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--objectAnimator for parabolaX -->
+    <objectAnimator
+        android:valueType="floatType"
+        android:valueFrom="0"
+        android:valueTo="1"
+        android:propertyName="parabolaX"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:duration="500"
+        />
+    <!--objectAnimator for parabolaY -->
+    <objectAnimator
+        android:valueType="floatType"
+        android:valueFrom="0"
+        android:valueTo="1"
+        android:propertyName="parabolaY"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        android:duration="500"
+        />
+    <!--objectAnimator for rotation-->
+    <objectAnimator
+        android:valueFrom="0"
+        android:valueTo="360"
+        android:propertyName="rotation"
+        android:duration="500"
+        />
+</set>

@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--same reason using this as color-->
+    <!--but it also can use to avoid the calculate of dp to px in programming by using getResources().getDimension(R.dimen."the name")-->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="btn_padding">20dp</dimen>
+    <dimen name="parabola_height">100dp</dimen>
+    <dimen name="elevation">5dp</dimen>
+    <dimen name="trans_pad">10dp</dimen>
+</resources>
